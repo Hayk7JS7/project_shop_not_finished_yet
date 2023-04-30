@@ -1,0 +1,15 @@
+.Home{
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    margin: 0 1rem 2rem 1rem;
+    width: 50rem;
+    line-height: 2rem;
+}
+.last{
+    font-style: italic;
+}

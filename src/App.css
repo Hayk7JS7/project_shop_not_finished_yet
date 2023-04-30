@@ -1,0 +1,54 @@
+.App {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --second-bg-color: #081b29;
+  --bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+}
+
+body{
+  background: var(--bg-color);
+  color: var(--text-color)
+}
+
+h1{
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 4em;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 2.5em;
+}
+
+h4{
+  font-size: 1.5em;
+  font-weight: 600;
+} 
+
+h5{
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+p{
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+span{
+  font-size: 1.15em;
+  font-weight: 300;
+  color: var(--main-color)
+}
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}

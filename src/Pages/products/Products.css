@@ -1,0 +1,15 @@
+.product{
+    color: var(--text-color)
+}
+
+.card{
+    color: var(--text-color);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.field{
+    margin: 1.5rem;
+}
